@@ -2,7 +2,7 @@
 title: Obsidian搭建个人博客
 published: 2026-01-18
 created_time: 2026-01-18 20:57:34
-description:
+description: obsidian和astro搭建个人博客
 tags:
   - 文章
   - astro
