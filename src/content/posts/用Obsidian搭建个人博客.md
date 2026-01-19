@@ -163,3 +163,11 @@ Obsidian Vault
 ![](../../../src/assets/用Obsidian搭建个人博客/image-7.webp)
 
 
+## 关于同步
+Enveloppe插件提供了如下这些同步命令：
+![](../../../src/assets/用Obsidian搭建个人博客/image-1.webp)
+
+- Upload only new notes：只同步在Github仓库中不存在的新笔记
+- Upload all shared notes：同步所有shared=True的笔记，以及其附件
+- Upload single current active note：看描述应该是只同步当前窗口内打开的笔记，但是我实测下来会报错说token invalid。。。
+
