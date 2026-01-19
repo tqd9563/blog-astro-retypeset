@@ -53,7 +53,7 @@ Enveloppe插件是这套博客搭建流程中的核心部分，它将博客的�
 这里首先需要将File tree in repository配置成Property key，这样是可以根据每一篇文章的某个具体front matter属性值，将文章映射到Astro Repo的不同目录下。但是我们由于后面要解决图片相对路径的引用问题，这里不需要去填写对应的property key。
 
 然后我们配置Default folder等于`src/content/posts`（视你的主题不同而言）
-> [!causion]
+> [!caution]
 > 注意，如果选择默认的Fixed Folder，然后设置Root folder为`src/content/posts`的话，后面你的所有附件内容也会被推送到`src/content/posts/`目录下面去！
 > 
 > 我不这么做的原因是这样会导致在我的Astro Repo中，md文件与图片的相对层级过于接近，但是在我的Obsidian Vault中，却没办法做到这样（后面会提到，受限于Image Converter插件的能力，生成图片的目录只能是md同级或次一级，但无法做到上一级。。）从而会导致相对引用出现问题。
