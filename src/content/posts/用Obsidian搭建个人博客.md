@@ -168,11 +168,12 @@ Enveloppe插件提供了如下这些同步命令：
 ![](../../../src/assets/用Obsidian搭建个人博客/image-1.webp)
 ### Upload操作
 
-- Upload only new notes：只同步全新的笔记（未曾发布过，在Astro Repo中不存在的）
-- Upload all shared notes：同步所有shared=True的笔记，及其附件
-- Upload single current active note：看描述应该是只同步当前窗口内打开的笔记，但是我实测下来会报错说token invalid。。。
+- `Upload only new notes`：只同步全新的笔记（未曾发布过，在Astro Repo中不存在的）
+- `Upload all shared notes`：同步所有shared=True的笔记，及其附件
+- `Upload single current active note`：看描述应该是只同步当前窗口内打开的笔记，但是我实测下来会报错说token invalid。。。
 
 ### Refresh操作
-- Refresh all published notes：只会同步最近有过编辑且已经发布过的笔记（即存在于你的Astro Repo里的md）
-- Refresh published and upload new notes：不仅会同步最近有过编辑且已经发布过的笔记，也会将全新的笔记同步过去
+- `Refresh all published notes`：只会同步最近有过编辑且已经发布过的笔记（即存在于你的Astro Repo里的md文件）
+- `Refresh published and upload new notes`：不仅会同步最近有过编辑且已经发布过的笔记，也会将全新的笔记同步过去
 
+目前尝试下来，无论是用哪个命令，凡是被修改过或是新增的md文件，其附件必定会被一同同步一遍过去（即使关闭了Forced Updates选项也是如此。。）因此，为了减少同步的md文件数量，每次发布选择的命令是`Refresh published and upload new notes`
