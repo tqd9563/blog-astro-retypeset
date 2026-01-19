@@ -14,6 +14,12 @@ toc: true
 share: true
 abbrlink: blog-built-with-obsidian
 ---
+>[!quote] 
+> 枫岸纷纷落叶多，洞庭秋水晚来波。
+乘兴轻舟无近远，白云明月吊湘娥。
+> —— 唐 · 贾至 《初至巴陵与李十二白裴九同泛洞庭湖三首 二》
+
+
 我的这个个人博客是用obsidian +astro +zeabur搭建的，其中obsidian负责文章的编写，astro负责静态网站的编译生成，zeabur负责网站的托管运维。核心最主要用到obsidian中的两个插件：
 - Image Converter：负责obsidian客户端侧的图片转化、压缩
 - Enveloppe：方便地将笔记发布到指定的github仓库中，并支持个性化的自定义配置
