@@ -142,6 +142,7 @@ Obsidian Vault
 | ------------- | ---------------------------------- | ---------------------------------- |
 | {notename}.md | ？？？                                | `src/content/posts/{notename}.md`  |
 | {image}.webp  | `src/assets/{notename}/image.webp` | `src/assets/{notename}/image.webp` |
+
 由于在Astro Repo中，md文件里的图片相对路径引用代码，与在Obsidian  Vault中的代码是完全一致的，所以，我们只需要做一件事，那就是调整Vault中的md文件相对于`src/assets/{notename}/image.webp`目录的相对路径，使其和`src/content/posts/{notename}.md`相对于`src/assets/{notename}/image.webp`的相对路径完全一致即可。
 
 不难倒推出：**Vault中md的目录格式必须是形如`layer1/layer2/layer3/{notename}.md`这样的**，这样两边的相对路径引用都会等于`../../../src/assets/{notename}/image.webp`
