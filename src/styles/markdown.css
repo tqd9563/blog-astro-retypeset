@@ -140,7 +140,7 @@ html.dark .heti pre span {
 
 /* Tables */
 .heti :where(table) {
-  --at-apply: 'my-6 box-border block max-w-full table-auto overflow-x-auto';
+  --at-apply: 'my-6 box-border max-w-full overflow-x-auto';
   scrollbar-width: thin;
   scrollbar-color: oklch(var(--un-preset-theme-colors-secondary) / 0) transparent;
   transition: scrollbar-color 0.3s ease-out;
