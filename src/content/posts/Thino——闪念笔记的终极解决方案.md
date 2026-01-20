@@ -26,7 +26,7 @@ abbrlink: obsidian-extension-thino
 - 其他。。。
 
 我们可以把上述类型所输出的内容，统称为“闪念”，即一闪而过的念头（英文叫memo）。如何管理这些闪念成为了一个老大难的问题。在之前我习惯于借助微信的文件传输助手，把它当成一个树洞，什么东西都往里倒，文采很好的句子、实用小工具、专有名词概念、未来待办事项，等等等等，一股脑的全写进去。好处是微信确实打开方便，随开随记，但坏处是，所有内容几乎都是统一的文字形式，无法区分类别，且很占用微信的内存。
-![|369x800](../../../src/assets/Thino——闪念笔记的终极解决方案/image.webp)
+![](../../../src/assets/Thino——闪念笔记的终极解决方案/image-5.webp)
 
 ## Thino插件
 
@@ -40,14 +40,13 @@ abbrlink: obsidian-extension-thino
 ### 给memo打tag
 
 thino提供了tags的特性，可以为每一条闪念打标签，例如好文好句类的可以打一个`#selection`标签，实用工具类的可以打一个`#tool`标签等等，一个不错的github开源项目可以打一个`#github`的标签等等。这样可以很一目了然地分辨出每一条memo的类型。
-
-![|700x559](../../../src/assets/Thino——闪念笔记的终极解决方案/image-1.webp)
+![](../../../src/assets/Thino——闪念笔记的终极解决方案/image-6.webp)
 
 
 ### 任务管理
 
 对于一个待办类型的memo，通常你可能会需要分配一个DDL，在thino中，这一操作非常简单，只需要在输入框中打一个@，就会跳出一个小日历，选择时间非常的方便：
-![|700x370](../../../src/assets/Thino——闪念笔记的终极解决方案/image-2.webp)
+![](../../../src/assets/Thino——闪念笔记的终极解决方案/image-7.webp)
 
 
 ### Homepage插件
@@ -56,8 +55,8 @@ thino提供了tags的特性，可以为每一条闪念打标签，例如好文�
 要想实现这一点，只需要安装一个Homepage插件即可。社区插件市场搜索安装，然后配置下面的选项：
 - Homepage设为：Nothing
 - Commands设为：`Thino: Open thino in center window`
-![|700x545](../../../src/assets/Thino——闪念笔记的终极解决方案/image-3.webp)
+![](../../../src/assets/Thino——闪念笔记的终极解决方案/image-8.webp)
+
 
 配置完之后，再设置一下Thino插件的Editor部分如下选项：将`Focus on editor when open`勾选上，这样每次打开Obsidian后，会默认加载Thino的编辑界面，并且你的光标会自动聚焦在输入框内，可以无痛开始记录！
-
-![|700x376](../../../src/assets/Thino——闪念笔记的终极解决方案/image-4.webp)
+![](../../../src/assets/Thino——闪念笔记的终极解决方案/image-9.webp)
