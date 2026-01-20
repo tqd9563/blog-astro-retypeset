@@ -40,7 +40,7 @@ Astro官方提供了各式各样的云托管平台[部署指南](https://docs.as
 > 一般来说，服务端渲染适配器是不需要的安装的，除非你的博客中有很多需要服务器参与计算的 ，类似于实时点赞之类的功能。
 
 流程走到最后，用zeabur给你绑定的域名访问，能够看到下面的样子就说明成功了（你使用的主题的初始模板）
-![](../../../src/assets/用Obsidian搭建个人博客/image.webp)
+![|0x10](../../../src/assets/用Obsidian搭建个人博客/image.webp)
 
 ## 设置你的Enveloppe
 
@@ -172,7 +172,7 @@ Obsidian Vault
 
 ## 关于同步
 Enveloppe插件提供了如下这些同步命令：
-![](../../../src/assets/用Obsidian搭建个人博客/image-1.webp)
+![|0x10](../../../src/assets/用Obsidian搭建个人博客/image-1.webp)
 ### Upload操作
 
 - `Upload only new notes`：只同步全新的笔记（未曾发布过，在Astro Repo中不存在的）
