@@ -30,7 +30,7 @@ abbrlink: agent-skill-introduce
 Anthropic官方定义：**Skills 是一些文件夹，里面放着指令、脚本和资源**，当 Claude 觉得当前任务需要它时，就会动态加载。
 
 一个标准的Skill文件夹结构通常由以下模块组成：
-![](../../src/assets/Skill到底是什么？我们该怎么用？/image.webp)
+![](../../../src/assets/Skill到底是什么？我们该怎么用？/image.webp)
 
 ## Skill的组成与加载
 
