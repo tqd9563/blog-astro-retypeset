@@ -25,6 +25,7 @@ export default defineConfig({
             important: 'oklch(71.4% 0.203 305.504 / 0.8)', // purple-400
             warning: 'oklch(82.8% 0.189 84.429 / 0.8)', // amber-400
             caution: 'oklch(70.4% 0.191 22.216 / 0.8)', // red-400
+            quote: 'oklch(81.1% 0.0046 179.7 / 0.8)', // gray-400
           },
         },
       },
@@ -38,6 +39,7 @@ export default defineConfig({
       important: 'oklch(49.6% 0.265 301.924 / 0.8)', // purple-700
       warning: 'oklch(55.5% 0.163 48.998 / 0.8)', // amber-700
       caution: 'oklch(50.5% 0.213 27.518 / 0.8)', // red-700
+      quote: 'oklch(81.1% 0.0046 179.7 / 0.8)', // gray-400
     },
     fontFamily: {
       title: ['Snell-Black', 'EarlySummer-Subset', 'EarlySummer', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],

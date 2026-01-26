@@ -6,6 +6,7 @@ const admonitionTypes = {
   important: 'IMPORTANT',
   warning: 'WARNING',
   caution: 'CAUTION',
+  quote: 'QUOTE',
 }
 
 // Extract text from directive label

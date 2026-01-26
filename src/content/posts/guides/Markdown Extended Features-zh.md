@@ -35,6 +35,9 @@ abbrlink: markdown-extended-features
 ### 语法
 
 ```
+> [!QUOTE]
+> 一些引用信息
+
 > [!NOTE]
 > 即使快速浏览，也值得用户留意的信息。
 
@@ -58,6 +61,9 @@ abbrlink: markdown-extended-features
 ```
 
 ### 效果
+
+> [!QUOTE]
+> 一些引用信息
 
 > [!NOTE]
 > 即使快速浏览，也值得用户留意的信息。
