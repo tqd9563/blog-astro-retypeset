@@ -12,7 +12,7 @@ share: true
 abbrlink: obsidian-extension-thino
 ---
 
->[!quote] 
+> [!quote] 
 > 落星江水接天流，花絮飞时暮雨收。
 波底鲤鱼东去否，尺书烦汝到杨州。
 > —— 宋 · 释道潜 《寄俞秀老清老二居士  其二》

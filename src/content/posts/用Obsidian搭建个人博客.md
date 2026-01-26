@@ -14,7 +14,7 @@ toc: true
 share: true
 abbrlink: blog-built-with-obsidian
 ---
->[!quote] 
+> [!quote] 
 > 枫岸纷纷落叶多，洞庭秋水晚来波。
 乘兴轻舟无近远，白云明月吊湘娥。
 > —— 唐 · 贾至 《初至巴陵与李十二白裴九同泛洞庭湖三首 二》
