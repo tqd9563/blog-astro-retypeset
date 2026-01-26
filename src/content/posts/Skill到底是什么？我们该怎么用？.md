@@ -14,7 +14,7 @@ share: true
 abbrlink: agent-skill-introduce
 ---
 
->[!quote] 
+> [!quote] 
 > 日养千花气，风和百和香。
 君王自仁寿，柏叶更称觞。
 > —— 宋 · 毛滂 《春词  其一四》
